@@ -226,10 +226,6 @@ const products = [
 
 const div = document.querySelector('div');
 
-
-
-console.log(AllItems());
-
 products.map((items) => {
     div.innerHTML += `
     <h1> Product Name: ${items.brand} ${items.name}</h1>
